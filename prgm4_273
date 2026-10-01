@@ -8,3 +8,9 @@ subtraction = a - b
 
 print("Addition =", addition)
 print("Subtraction =", subtraction)
+print("Multiplication =", a * b)
+
+if b != 0:
+    print("Division =", a / b)
+else:
+    print("Division is not possible because denominator is zero.")
